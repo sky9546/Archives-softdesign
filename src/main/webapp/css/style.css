@@ -1,0 +1,62 @@
+/* styles.css */
+/* Add custom styles for better appearance */
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+#logs {
+    margin-top: 20px;
+}
+.col-md-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 2 0 16.666667%;
+    max-width: 25.666667%;
+}
+
+.action-box {
+  position: relative;
+  border: 1px solid #dadada;
+  padding: 10px;
+  background-color: black;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.action-heading {
+  margin: 0;
+  color:white;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+}
+
+.action-box:before {
+  content: '';
+  position: absolute;
+  top: -15px; /* Adjust the positioning of the triangle */
+  left: 50%; /* Position at the center of the box */
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 15px 15px 15px; /* Adjust the size of the triangle */
+  border-color: transparent transparent #f5f5f5 transparent;
+}
+.Article-text {
+    font-family: sans-serif;
+    font-weight: bold;
+}
